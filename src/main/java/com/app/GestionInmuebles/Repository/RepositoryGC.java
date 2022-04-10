@@ -1,4 +1,4 @@
 package com.app.GestionInmuebles.Repository;
 
-public interface RespositoryR {
+public interface RepositoryGC {
 }

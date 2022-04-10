@@ -9,14 +9,15 @@ import javax.persistence.*;
 @Entity
 @Table(name = "roles")
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class EntityT {
+@NoArgsConstructor
+public class EntityR {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "roles_id", nullable = false)
-    private Long roles_id;
+    @Column(name = "id", nullable = false)
+    private Long id;
 
     @Column(name = "nombre_rol", nullable = false, unique = true)
     private String nombre_rol;
+
 }

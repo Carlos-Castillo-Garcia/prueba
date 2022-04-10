@@ -1,4 +1,4 @@
 package com.app.GestionInmuebles.Repository;
 
-public interface RespositorySC {
+public interface RepositoryTBI_CCV {
 }

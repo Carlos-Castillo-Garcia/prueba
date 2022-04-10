@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.sql.Timestamp;
 
 @Entity
 @Table(name = "Users")
@@ -26,11 +27,11 @@ public class EntityU {
     @Column(name = "password", nullable = false)
     private String password;
 
-//    @Column(name = "create_time")
-//    private Date create_time;
-//
-//    @Column(name = "update_time")
-//    private Date update_time;
+    @Column(name = "create_time")
+    private Timestamp create_time;
+
+    @Column(name = "update_time")
+    private Timestamp update_time;
 
     @Column(name = "roles_id", nullable = false)
     private int roles_id;

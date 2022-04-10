@@ -1,4 +1,4 @@
 package com.app.GestionInmuebles.Repository;
 
-public interface RespositoryCVI {
+public interface RepositoryAI {
 }

@@ -9,11 +9,10 @@ import java.sql.Date;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ReposnseU {
+public class ResponseU {
     private String username;
     private String email;
     private String password;
     private Date create_time;
     private Date update_time;
-    private int roles_id;
 }
